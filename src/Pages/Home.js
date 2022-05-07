@@ -8,12 +8,12 @@ function Home() {
 
 
   return (
-    <div>
+    <div className='Home'>
       This is a home page
       <br />
       <button onClick={()=>{
-        navigate('/profile/:sevde')
-      }}>to Sevde</button>
+        navigate('/profile')
+      }}>to profile</button>
     </div>
   )
 }

@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Orange CUPCAKE",
+      "url": "../images/photo-1.jpg",
+      "preis": "5 $"
+    },
+    {
+      "id": 2,
+      "title": "Candy Chocolate",
+      "url": "../images/photo-2.jpg",
+      "preis": "13 $"
+    },
+    {
+      "id": 3,
+      "title": "Choco Art-1",
+      "url": "../images/photo-3.jpg",
+      "preis": "24 $"
+    },
+    {
+      "id": 4,
+      "title": "Special Chocos",
+      "url": "../images/photo-4.jpg",
+      "preis": "7 $"
+    },
+    {
+      "id": 5,
+      "title": "Choco Art-2",
+      "url": "../images/photo-5.jpg",
+      "preis": "5 $"
+    },
+    {
+      "id": 6,
+      "title": "Chocolate Dream",
+      "url": "../images/photo-6.jpg",
+      "preis": "15 $"
+    },
+    {
+      "id": 7,
+      "title": "Ice Cream Chocolate",
+      "url": "../images/photo-7.jpg",
+      "preis": "4 $"
+    },
+    {
+      "id": 8,
+      "title": "Dark Cake",
+      "url": "../images/photo-8.jpg",
+      "preis": "25 $"
+    },
+    {
+      "id": 9,
+      "title": "Choco Bowls",
+      "url": "../images/photo-9.jpg",
+      "preis": "2 $"
+    }
+  ]
+}

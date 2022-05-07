@@ -7,7 +7,8 @@
     background-repeat: no-repeat;
     background-position:bottom;
     background-size:cover;
-    background-image: url('./images//bg-3.jpg');
+    background-image: url('/public/img/bg-3.jpg');
+  
 }
 
 .navbar{
@@ -29,5 +30,9 @@
 
 .Products{
     margin: 0 15rem;
+}
+
+.card-img-top{
+    height: 400px;
 }
 

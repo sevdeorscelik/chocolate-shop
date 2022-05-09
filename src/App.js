@@ -22,7 +22,7 @@ function App() {
       <Router>
         <nav className='navbar d-flex justify-content-between '>
           <div className="navbar-brand text-light" >
-            <img src='img/logo.png'  className='logo' alt='logo'/>
+            <img src='/img/logo.png'  className='logo' alt='logo'/>
           </div>
 
           <ul class="nav ">

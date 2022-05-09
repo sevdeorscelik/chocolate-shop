@@ -3,13 +3,13 @@ import { useEffect, useState } from "react";
 import axios from 'axios'
 
 
-
 function Product() {
 
   //http://localhost:3005/products
 
   const [products, setProducts] = useState([])
 
+  
   useEffect(() => {
     axios('http://localhost:3005/products')
       .then(resp => setProducts(resp.data))

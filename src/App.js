@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Home from './Pages/Home'
 import Product from './Pages/Product'
 import About from './Pages/About'
-import Contact from './Pages/About'
+import Contact from './Pages/Contact'
 import ErrorPage from './Pages/ErrorPage'
 
 import './App.css'

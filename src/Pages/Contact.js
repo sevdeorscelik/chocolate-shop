@@ -1,11 +1,12 @@
 import { React } from 'react'
+import { useNavigate, useParams } from 'react-router-dom'
 
 
 
 function Contact() {
 
   return (
-  <div>This is a contact page</div>
+  <div>Hallo</div>
   )
 }
 

@@ -1,38 +1,102 @@
-
 /*Home Page*/
+body {}
 
-.Home{
-    height: 100vh;
-    
+.Home {
+    height: 90vh;
     background-repeat: no-repeat;
-    background-position:bottom;
-    background-size:cover;
+    background-position: bottom;
+    background-size: cover;
     background-image: url('/public/img/bg-3.jpg');
-  
+
 }
 
-.navbar{
-    background-color: rgb(134, 84, 57, .7);
+.navbar {
+
+    background-color: rgb(64, 34, 24);
     height: 15%;
 }
 
-.nav-item:hover{
-    background-color: rgb(64, 34, 24);
-       
+.nav-item:hover {
+    background-color: rgb(134, 84, 57);
+
 }
 
-.nav-link{
+.nav-link {
     font-size: 1.5rem;
 }
 
 
 /* Products*/
 
-.Products{
-    margin: 0 15rem;
+.Products {
+
+    background-color: #F7E9D7;
 }
 
-.card-img-top{
-    height: 400px;
+.Products .card-body {
+    border: solid 1px rgb(134, 84, 57, .7);
+    border-top: 0;
 }
 
+
+/* About */
+
+.About {
+    background-color: #F7E9D7;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.About *{
+}
+
+
+.About .card {
+    margin: 3rem 10rem;
+    color: rgb(134, 84, 57);
+    background-color: #F7E9D7;
+    border: none;
+   -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(134, 84, 57, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(134, 84, 57, 0);
+    
+}
+
+.About .card-body{
+    width: 50rem;
+}
+
+.to-product {
+    width: auto;
+    align-self: end;
+    margin-right: 3rem;
+}
+
+.view:hover{
+    background-color: rgb(64, 34, 24);
+    color: #F7E9D7;
+}
+
+.view{
+    background-color: rgb(134, 84, 57);
+    color: #F7E9D7;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+
+
+.About .card-text {
+    letter-spacing: .1rem;
+    line-height: 2rem;
+    overflow: hidden;
+    text-align: justify;
+    
+   
+}
+
+.About .image{
+    height: 40rem;
+}

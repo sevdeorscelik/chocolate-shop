@@ -16,6 +16,7 @@ function Product() {
       .catch(err => console.log(err))
   }, [])
 
+  //console.log(products);
 
   return (
     <div className='Products'>

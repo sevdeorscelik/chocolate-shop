@@ -1,14 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 /*Home Page*/
-body {}
+
 
 .Home {
-    height: 90vh;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    background-image: url('/public/img/bg-3.jpg');
-
+    
 }
+
+
+
+.slide-container {
+    width: 100%;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.each-slide>div {
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.each-slide span {
+    color: #FEF7DC;
+    width: 50rem;
+    
+  }
+
+
+
 
 .logo {
     width: 100px;
@@ -104,36 +130,34 @@ body {}
 
 .Contact {
     /*  background-color: rgb(64, 34, 24);*/
-    background-color: #FEF7DC;
-    ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
     height: 85vh;
 
 }
 
-.Contact .input-group-text{
-    background-color:rgb(134, 84, 57) ;
-    border: solid 1px rgb(64, 34, 24);
+.Contact .input-group-text {
+    background-color: #FEF7DC;
+    border: solid 1px #FEF7DC;
 }
 
-.Contact .form-control{
-    border: solid 1px rgb(64, 34, 24);
+.Contact .form-control {
+    border: solid 1px #FEF7DC;
 }
+
 .Contact span {
-      
-color: rgb(64, 34, 24);
-}
-
-.Contact .btn{
-    color: rgb(64, 34, 24);
-    border: solid 1px rgb(64, 34, 24);
-}
-
-.Contact .btn:hover{
     color: #FEF7DC;
-    background-color: rgb(134, 84, 57)  ;
 }
 
-.Contact *{
-   
+.Contact .btn {
+    color: #FEF7DC;
+    border: solid 1px #FEF7DC;
 }
+
+.Contact .btn:hover {
+    color: brown;
+    background-color: #FEF7DC;
+}
+

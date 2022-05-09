@@ -1,18 +1,21 @@
-import { React } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { React} from 'react'
 
+import Slideshow from '../components/Slideshow';
 
 
 function Home() {
-  let navigate = useNavigate()
-
+ 
 
   return (
     <div className='Home'>
-      
 
-    </ div>
+      <div className='slider'>
+
+      <Slideshow  />
+      </div>
+    </div>
   )
+
 }
 
 

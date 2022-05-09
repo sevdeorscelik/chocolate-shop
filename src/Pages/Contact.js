@@ -9,7 +9,7 @@ function Contact() {
     
     return (
 
-        <div className="Contact d-flex justify-content-center align-items-center">
+        <div className="Contact d-flex justify-content-center align-items-center" style={{ 'backgroundImage': `linear-gradient(rgb(0,0,0, 0.9), rgb(0,0,0,0.5)), url(img/photo-15.jpg)` }}>
 
             <div className='container'>
                 <h2>Contact us</h2>
@@ -64,7 +64,7 @@ function Contact() {
                                         <span className="">Vancouverstraße 2a 20457 Hamburg, Deutschland</span>
                                     </td>
                                     <th scope="row" className=" lead text-center">
-                                        <BsGeoAltFill style={{ fontSize: "1.5rem" }, {color:"rgb(64, 34, 24)"}}/>
+                                        <BsGeoAltFill style={{ fontSize: "1.5rem", color:"#FEF7DC"}}/>
                                         
                                     </th>
                                 </tr>
@@ -73,7 +73,7 @@ function Contact() {
                                         <span className="">+90 555 - 444 - 333 - 222 - 111</span>
                                     </td>
                                     <th scope="row" className="lead text-center">
-                                        <BsFillTelephoneFill style={{ fontSize: "1.5rem" },{color:"rgb(64, 34, 24)"}}/>
+                                        <BsFillTelephoneFill style={{ fontSize: "1.5rem", color:"#FEF7DC"}}/>
                                     </th>
                                 </tr>
 

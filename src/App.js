@@ -13,18 +13,18 @@ import { FaShoppingCart } from "react-icons/fa";
 
 
 function App() {
-
-//http://localhost:3005/products
-
-
+  
+  //http://localhost:3005/products
+  
+  
   return (
     <div className="App">
       <Router>
         <nav className='navbar d-flex justify-content-between '>
-          <a class="navbar-brand text-light" href="#">
-            <img src='img/logo.png' className='logo'></img>
-          </a>
-          
+          <div className="navbar-brand text-light" >
+            <img src='img/logo.png'  className='logo' alt='logo'/>
+          </div>
+
           <ul class="nav ">
             <li class="nav-item  ">
               <Link to='/' class="nav-link  text-light " aria-current="page" href="#">Home</Link>
@@ -40,7 +40,7 @@ function App() {
             </li>
           </ul>
           <div>
-            <FaShoppingCart className='shopping-icon'/>  
+            <FaShoppingCart className='shopping-icon' />
           </div>
         </nav>
         <Routes>

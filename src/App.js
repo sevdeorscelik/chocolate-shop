@@ -9,6 +9,7 @@ import ErrorPage from './Pages/ErrorPage'
 
 import './App.css'
 import { FaShoppingCart } from "react-icons/fa";
+import data from './data/products.json'
 
 
 
@@ -45,7 +46,7 @@ function App() {
         </nav>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/product' element={<Product />} />
+          <Route path='/product' element={<Product products={data} />} />
           <Route path='/about' element={<About />} />
           <Route path='*' element={<ErrorPage />} />
           <Route path='/contact' element={<Contact />} />

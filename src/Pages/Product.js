@@ -1,22 +1,18 @@
 import { React } from 'react'
 import { useEffect, useState } from "react";
-import axios from 'axios'
 
 
-function Product() {
+
+
+function Product(props) {
 
   //http://localhost:3005/products
 
-  const [products, setProducts] = useState([])
+  //const [products, setProducts] = useState(data)
 
-  
-  useEffect(() => {
-    axios('http://localhost:3005/products')
-      .then(resp => setProducts(resp.data))
-      .catch(err => console.log(err))
-  }, [])
+ 
 
-  //console.log(products);
+  console.log(props.products);
 
   return (
     <div className='Products'>
@@ -25,7 +21,7 @@ function Product() {
         <div className="row row-cols-1 row-cols-md-3 g-4 w-75 mb-5 mt-2">
 
           {
-            products.map(product => {
+            props.products.map(product => {
               return (
 
                 <div className=" col" >

@@ -138,13 +138,25 @@ h3 {
 
 }
 
+.Contact h2{
+    color: #FEF7DC;
+}
+
 .Contact .input-group-text {
-    background-color: #FEF7DC;
-    border: solid 1px #FEF7DC;
+    background-color: rgb(64, 34, 24, .7);
+    border: solid 1px rgb(64, 34, 24);
 }
 
 .Contact .form-control {
-    border: solid 1px #FEF7DC;
+    border: solid 1px rgb(64, 34, 24);
+    background-color: rgb(248, 236, 209, .7);
+}
+.Contact .form-control:focus{
+    background-color: #FEF7DC;
+}
+
+.Contact .form-control::placeholder{
+    color:rgb(64, 34, 24);
 }
 
 .Contact span {

@@ -31,6 +31,7 @@ const slideImages = [
 ];
 
 const Slideshow = () => {
+
     return (
         <div className="slide-container">
             <Slide>

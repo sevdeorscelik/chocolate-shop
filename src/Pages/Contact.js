@@ -22,7 +22,7 @@ function Contact() {
                                     <div className="input-group-text rounded-0 ">
                                         <i className="bi bi-person-fill"></i>
                                     </div>
-                                    <input type="text" className="form-control rounded-0  bg-transparent"
+                                    <input type="text" className="form-control rounded-0  "
                                         placeholder="NAME *" required />
                                 </div>
                             </div>
@@ -32,7 +32,7 @@ function Contact() {
                                     <div className="input-group-text rounded-0 ">
                                         <i className="bi bi-at"></i>
                                     </div>
-                                    <input type="email" className="form-control rounded-0   bg-transparent"
+                                    <input type="email" className="form-control rounded-0   "
                                         placeholder="EMAIL *" required />
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ function Contact() {
                                     <div className="input-group-text rounded-0  ">
                                         <i className="bi bi-envelope-fill"></i>
                                     </div>
-                                    <textarea className="form-control rounded-0   bg-transparent"
+                                    <textarea className="form-control rounded-0  "
                                         placeholder="MESSAGE *" rows="5" required></textarea>
                                 </div>
                             </div>

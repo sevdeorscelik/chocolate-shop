@@ -10,8 +10,13 @@ body {}
 
 }
 
-.navbar {
+.logo {
+    width: 100px;
 
+}
+
+.navbar {
+    padding: 0 20px;
     background-color: rgb(64, 34, 24);
     height: 15%;
 }
@@ -25,12 +30,18 @@ body {}
     font-size: 1.5rem;
 }
 
+.shopping-icon {
+    background-color: none;
+    color: rgb(134, 84, 57, .5);
+    font-size: 2rem;
+    cursor: pointer;
+}
 
 /* Products*/
 
 .Products {
 
-    background-color: #F7E9D7;
+    background-color: #FEF7DC;
 }
 
 .Products .card-body {
@@ -42,61 +53,87 @@ body {}
 /* About */
 
 .About {
-    background-color: #F7E9D7;
-    display: flex;
-    justify-content: center;
-    
-
+    background-color: #FEF7DC;
+    height: 85vh;
 }
-
-.About *{
-}
-
 
 .About .card {
-    margin: 3rem 10rem;
     color: rgb(134, 84, 57);
-    background-color: #F7E9D7;
+    background-color: #FEF7DC;
     border: none;
-   -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(134, 84, 57, 0);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(134, 84, 57, 0);
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(134, 84, 57, 0);
-    
-}
 
-.About .card-body{
-    width: 50rem;
-}
-
-.to-product {
-    width: auto;
-    align-self: end;
-    margin-right: 3rem;
-}
-
-.view:hover{
-    background-color: rgb(64, 34, 24);
-    color: #F7E9D7;
-}
-
-.view{
-    background-color: rgb(134, 84, 57);
-    color: #F7E9D7;
-    padding: 5px;
-    cursor: pointer;
 
 }
-
-
 
 .About .card-text {
     letter-spacing: .1rem;
     line-height: 2rem;
     overflow: hidden;
     text-align: justify;
-    
-   
+
 }
 
-.About .image{
-    height: 40rem;
+.About .card-body {
+    padding: 0 2rem;
+}
+
+.icon-bar {
+    background-color: rgb(134, 84, 57);
+    color: #F7E9D7;
+
+
+    cursor: pointer;
+}
+
+.icon-bar:hover {
+    color: rgb(64, 34, 24);
+    background-color: #FEF7DC;
+    border: solid 2px rgb(134, 84, 57);
+
+}
+
+.About .arrow-icon {
+    margin-left: 15px;
+    font-size: 1.2rem;
+}
+
+
+/* Contact */
+
+.Contact {
+    /*  background-color: rgb(64, 34, 24);*/
+    background-color: #FEF7DC;
+    ;
+
+    height: 85vh;
+
+}
+
+.Contact .input-group-text{
+    background-color:rgb(134, 84, 57) ;
+    border: solid 1px rgb(64, 34, 24);
+}
+
+.Contact .form-control{
+    border: solid 1px rgb(64, 34, 24);
+}
+.Contact span {
+      
+color: rgb(64, 34, 24);
+}
+
+.Contact .btn{
+    color: rgb(64, 34, 24);
+    border: solid 1px rgb(64, 34, 24);
+}
+
+.Contact .btn:hover{
+    color: #FEF7DC;
+    background-color: rgb(134, 84, 57)  ;
+}
+
+.Contact *{
+   
 }

@@ -8,6 +8,7 @@ import Contact from './Pages/Contact'
 import ErrorPage from './Pages/ErrorPage'
 
 import './App.css'
+import { FaShoppingCart } from "react-icons/fa";
 
 
 
@@ -20,7 +21,9 @@ function App() {
     <div className="App">
       <Router>
         <nav className='navbar d-flex justify-content-between '>
-          <a class="navbar-brand text-light" href="#">Happy {<br/>} Chocolate</a>
+          <a class="navbar-brand text-light" href="#">
+            <img src='img/logo.png' className='logo'></img>
+          </a>
           
           <ul class="nav ">
             <li class="nav-item  ">
@@ -37,7 +40,7 @@ function App() {
             </li>
           </ul>
           <div>
-            ikon  
+            <FaShoppingCart className='shopping-icon'/>  
           </div>
         </nav>
         <Routes>

@@ -9,15 +9,21 @@ function Home() {
 
   return (
     <div className='Home'>
-      This is a home page
-      <br />
-      <button onClick={()=>{
-        navigate('/profile')
-      }}>to profile</button>
-    </div>
+      
+
+    </ div>
   )
 }
 
 
 
 export default Home
+
+/*
+ This is a home page
+      <br />
+      <button onClick={()=>{
+        navigate('/profile')
+      }}>to profile</button>
+  
+*/

@@ -10,9 +10,9 @@ function Home() {
     <div className='Home'>
 
       <div className='slider'>
-
       <Slideshow  />
       </div>
+      
     </div>
   )
 

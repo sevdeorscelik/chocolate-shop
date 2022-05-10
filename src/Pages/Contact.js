@@ -9,7 +9,7 @@ function Contact() {
     
     return (
 
-        <div className="Contact d-flex justify-content-center align-items-center" style={{ 'backgroundImage': `linear-gradient(rgb(0,0,0, 0.9), rgb(0,0,0,0.5)), url(img/photo-15.jpg)` }}>
+        <div className="Contact d-flex justify-content-center align-items-center" style={{ 'backgroundImage': `linear-gradient(rgb(0,0,0, 0.4), rgb(0,0,0,0.1)), url(img/photo-15.jpg)` }}>
 
             <div className='container'>
                 <h2>Contact us</h2>

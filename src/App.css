@@ -4,23 +4,15 @@
 /*Home Page*/
 
 
-.Home {
-    
-}
-
-
-
 .slide-container {
     width: 100%;
     margin: auto;
 }
 
-h3 {
-    text-align: center;
-}
+
 
 .each-slide>div {
-  
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,11 +22,8 @@ h3 {
 .each-slide span {
     color: #FEF7DC;
     width: 50rem;
-    
-  }
 
-
-
+}
 
 .logo {
     width: 100px;
@@ -129,15 +118,15 @@ h3 {
 
 .Contact {
     /*  background-color: rgb(64, 34, 24);*/
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     height: 100vh;
 
 }
 
-.Contact h2{
+.Contact h2 {
     color: #FEF7DC;
 }
 
@@ -150,12 +139,13 @@ h3 {
     border: solid 1px rgb(64, 34, 24);
     background-color: rgb(248, 236, 209, .7);
 }
-.Contact .form-control:focus{
+
+.Contact .form-control:focus {
     background-color: #FEF7DC;
 }
 
-.Contact .form-control::placeholder{
-    color:rgb(64, 34, 24);
+.Contact .form-control::placeholder {
+    color: rgb(64, 34, 24);
 }
 
 .Contact span {
@@ -172,3 +162,79 @@ h3 {
     background-color: #FEF7DC;
 }
 
+@media screen and (max-width: 1350px) {
+
+    .second {
+        margin-left: 15rem !important;
+        margin-right: 10rem !important;
+    }
+}
+
+@media screen and (max-width: 1004px) {
+.About{
+    padding-top: 5rem !important;
+}
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    .second {
+        font-size: 1.8rem !important;
+        margin-left: 4rem !important;
+        margin-right: 4rem !important;
+    }
+
+    .first {
+        font-size: 3.5rem !important;
+    }
+
+    .nav-link{
+        font-size: 1.2rem !important;
+    }
+
+    .img-fluid {
+       display: none !important;
+    }
+    
+}
+
+
+@media screen and (max-width: 590px) {
+
+    .logo{
+        width: 5rem !important;
+    }
+
+    .nav-link{
+        padding: .3rem !important;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 558px) {
+
+   
+    .first {
+        font-size: 2rem !important;
+        margin-left: 2rem !important;
+    }
+}
+
+
+@media screen and (max-width: 488px) {
+
+    .logo{
+        width: 2rem !important;
+    }
+
+    .nav-link{
+     
+        padding: .3rem !important;
+        font-size: .8rem !important;
+    }
+    
+}

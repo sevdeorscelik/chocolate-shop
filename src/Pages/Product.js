@@ -1,16 +1,11 @@
 import { React } from 'react'
 
 
-
-
-
 function Product(props) {
 
   //http://localhost:3005/products
 
   //const [products, setProducts] = useState(data)
-
- 
 
   console.log(props.products);
 
@@ -23,8 +18,8 @@ function Product(props) {
           {
             props.products.map(product => {
               return (
-
                 <div className=" col" >
+
                   <div className="card">
                     <img src={product.url} className="card-img-top" alt="chocolate" />
                   </div>

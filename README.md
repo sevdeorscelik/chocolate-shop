@@ -1,6 +1,6 @@
 
 
-### You can see my project [here](https://chocolate-shop.vercel.app/).
+### Demo: [link](https://chocolate-shop.vercel.app/).
 
 # Getting Started with Create React App
 
